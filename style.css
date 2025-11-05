@@ -237,3 +237,27 @@ header {
   align-items: center;
   gap: 60px;
 }
+.all-advantages{
+  width: 90%;
+  display: flex;
+  gap: 20px;
+
+}
+.advantage{
+  width: 24%;
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  border-radius: 12px;
+}
+.advantage i{
+  font-size: 48px;
+  color: red;
+}
+.advantage p{
+  font-size: 20px;
+  line-height: 30px;
+}
