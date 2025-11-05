@@ -127,37 +127,113 @@ header {
 .all-products {
   display: flex;
 }
-#top-products{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    align-items: center;
+#top-products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding-bottom: 120px;
 }
-#top-products h1{
-    font-size: 38px;
-    font-weight: bold;
+#top-products h1 {
+  font-size: 38px;
+  font-weight: bold;
 }
-.Filter{
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    padding: 20px;
+.Filter {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 20px;
 }
-.Filter div{
-    padding: 16px 40px;
-    /* border: 1px solid red; */
-    border-radius: 8px;
+.Filter div {
+  padding: 16px 40px;
+  /* border: 1px solid red; */
+  border-radius: 8px;
 }
-.Filter div span{
-    font-size: 24px;
+.Filter div span {
+  font-size: 24px;
 }
-.Filter div:first-child{
-    background-color: red;
+.Filter div:first-child {
+  background-color: red;
 }
-.all-products-group{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.all-products-group {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.top-product {
+  width: 24%;
+  border: 1px solid rgb(135, 135, 135);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  gap: 10px;
+}
+.img {
+  width: 100%;
+}
+.img img {
+  width: 100%;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text .stars i{
+  font-size: 20px;
+  color: red;
+}
+.text h2{
+  font-size: 24px;
+}
+.top-product > h2{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 24px;
+
+}
+.top-product h2 span{
+  font-size: 48px;
+}
+.top-product h2 del{
+  font-size: 28px;
+  color: rgb(151, 151, 151);
+}
+.top-product button{
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+.Browse-all{
+  width: 24%;
+  padding: 20px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.Browse-all i{
+  font-size: 32px;
+}
+.Browse-all h1{
+  width: 200px;
+
+}
+#our-advantages{
+  padding: 120px 60px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
